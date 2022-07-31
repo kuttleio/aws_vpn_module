@@ -1,0 +1,19 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "PritunlVPNInstanceRole",
+      "Effect": "Allow",
+      "Action": [
+        "ec2:DescribeAddresses",
+        "ec2:DescribeInstances",
+        "ec2:DescribeTags",
+        "ec2:AssociateAddress",
+        "s3:PutObject",
+        "s3:GetObject",
+        "s3:ListBucket"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
